@@ -738,18 +738,15 @@ header {
 #newsletter h1 {
     color:  #4BBCD0;
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 60px;
     margin-bottom: 65px;
     margin-top: 0;
-    /*font-family: "KGSecondChancesSketch", sans-serif;*/
     font-family: 'Open Sans', sans-serif;
 }
 
 #newsletter h1 span {
     color: #4c4c4c;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
 }
 
 form.newsletter {
