@@ -1,0 +1,104 @@
+/* Color */
+a, .btn, #slider h2 span, #slider a.btn, .navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,.navbar-nav li:hover ul.dropdown li:hover,
+.navbar-nav li:hover ul.dropdown li a:hover, h1.title span, ul.breed-desc li span strong,
+ul.points li:before, .panel-title span, .cta-right a, .achievement h1 i, .service i,
+.service a, .contact-form button, ul.social li a i, .entry-meta span a i, .countdown-period,
+.single-post .post-content p.time, .author-social a, .coming-soon h1, .coming-soon ul.social li a i,
+#not-found h1, h1.thank-you {
+	color: #4BBCD0 !important;
+}
+
+
+/* coming-soon-bg placeholder color */
+.coming-soon-bg form.subscription input::-webkit-input-placeholder {color:#4BBCD0;}
+.coming-soon-bg form.subscription input:-moz-placeholder {color:#4BBCD0;}
+.coming-soon-bg form.subscription input::-moz-placeholder {color:#4BBCD0;}
+.coming-soon-bg form.subscription input:-ms-input-placeholder {color:#4BBCD0;}
+
+
+
+/* Background */
+.btn-angle:before, #slider a.btn:hover, form.newsletter input[type="submit"]:hover,
+.filter li a.active, .filter li a:hover, .puppie-link, .copyright,
+.pagination li.active a, .pagination li.active a:hover, .pagination li a:hover,
+.single-post .post-image a:before, .coming-soon ul.social li a span, .preloader {
+	background: #4BBCD0 !important;
+}
+
+
+/* Background Color */
+#scrollUp, .carousel-indicators li.active, h3.widget-title, .tagcloud a:hover,
+.social-share ul li a:hover, .author-social a:hover {
+	background-color: #4BBCD0 !important;
+}
+
+
+
+/* Background RGBA 0.7 */
+.owl-prev, .owl-next, .hover {
+	background-color: rgba(61,149,211,0.7) !important;
+}
+
+/* Background RGBA 0.9 */
+.staff-overlay {
+	background-color: rgba(61,149,211,0.9) !important;
+}
+
+
+
+/* Border Color */
+.btn .navbar-nav li ul.dropdown li, #our-breeds .btn, .cta, .cta-left a.btn,
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus,
+.contact-form button, ul.social li a i, ul.social li a span, .navbar-nav li ul.dropdown li,
+.post a.btn, .carousel-indicators li.active, .carousel-indicators li, .search-form,
+.widget_tag_cloud a, .tagcloud a, .tagcloud a:hover, .comments-area .btn, 
+form.subscription input, form.subscription input:focus, .coming-soon ul.social li a i,
+form.subscription button, #not-found a.btn  {
+	border-color: #4BBCD0 !important;
+}
+
+/* Border Top Color */
+.breed-info:before, ul.social li a span:after, .breed-info:before, ul.social li a span:after {
+	border-top-color:#4BBCD0 !important;
+}
+
+
+
+/* Border Right Color */
+.breed-info:before {
+	border-right-color:#4BBCD0 !important;
+}
+
+
+/* box shadow */
+#slider a.btn {
+	-webkit-box-shadow: 4px 4px 0 #4BBCD0 !important;
+	-moz-box-shadow: 4px 4px 0 #4BBCD0 !important;
+	-ms-box-shadow: 4px 4px 0 #4BBCD0 !important;
+	-o-box-shadow: 4px 4px 0 #4BBCD0 !important;
+	box-shadow: 4px 4px 0 #4BBCD0 !important;
+}
+
+
+/* text shadow */
+.coming-soon h2 {
+	-webkit-text-shadow: 0px 2px 3px rgba(61,149,211,0.3) !important;
+	-moz-text-shadow: 0px 2px 3px rgba(61,149,211,0.3) !important;
+	-ms-text-shadow: 0px 2px 3px rgba(61,149,211,0.3) !important;
+	-o-text-shadow: 0px 2px 3px rgba(61,149,211,0.3) !important;
+	text-shadow: 0px 2px 3px rgba(61,149,211,0.3) !important;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.navbar-header { background:#4BBCD0 !important;}
+}
+
+.author-social a:hover {
+	color: #fff !important;
+}
