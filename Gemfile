@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -40,3 +40,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # JJG for social media facebbok
 gem 'social-share-button', '~> 0.1.6'
+
+#JJG for send mails
+gem 'delayed_job'
+gem 'delayed_job_active_record'
+gem 'activejob'
+
