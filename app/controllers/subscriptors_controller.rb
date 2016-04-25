@@ -4,7 +4,8 @@ class SubscriptorsController < ApplicationController
   # GET /subscriptors
   # GET /subscriptors.json
   def index
-    @subscriptors = Subscriptor.all
+   # @subscriptors = Subscriptor.all
+     @subscriptor = Subscriptor.new
   end
 
   # GET /subscriptors/1
@@ -13,13 +14,13 @@ class SubscriptorsController < ApplicationController
   end
 
   # GET /subscriptors/new
-  def new
-    @subscriptor = Subscriptor.new
-  end
+  #def new
+   # @subscriptor = Subscriptor.new
+  #end
 
   # GET /subscriptors/1/edit
-  def edit
-  end
+  #def edit
+  #end
 
   # POST /subscriptors
   # POST /subscriptors.json
@@ -29,14 +30,14 @@ class SubscriptorsController < ApplicationController
 
     respond_to do |format|
       if @subscriptor.save
-
-        Welcome.notify(@subscriptor).deliver_now
-        
-        format.html { redirect_to @subscriptor, notice: 'Subscriptor was successfully created.' }
-        format.json { render :show, status: :created, location: @subscriptor }
+        #Welcome.notify(@subscriptor).deliver_now
+        #format.html { redirect_to @subscriptor, notice: 'Subscriptor was successfully created.' }
+        #format.json { render :show, status: :created, location: @subscriptor }
+        format.js
       else
-        format.html { render :new }
-        format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
+        #format.html { render :new }
+        #format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
+        format.js
       end
     end
   end

@@ -785,6 +785,32 @@ form.newsletter input[type="submit"]:hover {
     background: none repeat scroll 0 0 #ffc800;
 }
 
+#respuestasub li p {
+	color:#ffffff;
+    font-weight: 800;
+	font-size: 25px;
+	z-index: 98;
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    background: #4BBCD0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #4BBCD0;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
+}
 /* ==========================================================================
  	Our Breed Styles
  ========================================================================== */
@@ -798,7 +824,7 @@ form.newsletter input[type="submit"]:hover {
 	margin-bottom: 90px;
 }
 
-.filter li {
+.filter li  {
 	padding: 0 10px;
 }
 
