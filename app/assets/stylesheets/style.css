@@ -74,7 +74,7 @@ button:focus, input:focus {
 
 .btn:focus {
 	outline: none;
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 ul {
@@ -171,7 +171,7 @@ a:focus {
 	border-color: inherit;
 	box-shadow: none;
 	outline: none;
-	color: green;
+	color: #4BBCD0;
 }
 
 .align-left {
@@ -200,7 +200,7 @@ h1.title {
 }
 
 h1.title span {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-family: 'Pacifico';
 	font-weight: 400;
 }
@@ -273,7 +273,6 @@ h2.sub-title span {
 	width: 100%;
 	left: 0%;
 }
-
 
 
 .parallax {
@@ -354,7 +353,7 @@ h2.sub-title span {
 }
 
 #slider h2 span {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 60px;
 	font-family: 'Open Sans';
 	font-weight: 600;
@@ -368,20 +367,20 @@ h2.sub-title span {
 }
 
 #slider a.btn {
-    color: #ffc800;
+    color: #4BBCD0;
     border:none;
     background-color: #fff;
     width: 100%;
     max-width: 302px;
-	-webkit-box-shadow: 4px 4px 0 #ffc800;
-	-moz-box-shadow: 4px 4px 0 #ffc800;
-	-ms-box-shadow: 4px 4px 0 #ffc800;
-	-o-box-shadow: 4px 4px 0 #ffc800;
-	box-shadow: 4px 4px 0 #ffc800;
+	-webkit-box-shadow: 4px 4px 0 #4BBCD0;
+	-moz-box-shadow: 4px 4px 0 #4BBCD0;
+	-ms-box-shadow: 4px 4px 0 #4BBCD0;
+	-o-box-shadow: 4px 4px 0 #4BBCD0;
+	box-shadow: 4px 4px 0 #4BBCD0;
 }
 
 #slider a.btn:hover {
-	background: #ffc800;
+	background: #4BBCD0;
 	color: #fff !important;
 	-webkit-box-shadow: 4px 4px 0 #fff;
 	-moz-box-shadow: 4px 4px 0 #fff;
@@ -616,13 +615,13 @@ header {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
 	background: none;	
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 .navbar-default .navbar-nav>li.active>a,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
  .navbar-nav li ul.dropdown {
@@ -656,7 +655,7 @@ header {
 }
 
 .navbar-nav li ul.dropdown li {
-	border-bottom: 1px solid #ffc800;
+	border-bottom: 1px solid #4BBCD0;
 	-webkit-transition: all 400ms;
 	-moz-transition: all 400ms;
 	-ms-transition: all 400ms;
@@ -694,7 +693,7 @@ header {
  }
 
 .navbar-nav li:hover ul.dropdown li:hover, .navbar-nav li:hover ul.dropdown li a:hover {
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 /* ==========================================================================
@@ -782,10 +781,17 @@ form.newsletter input[type="submit"] {
 }
 
 form.newsletter input[type="submit"]:hover {
-    background: none repeat scroll 0 0 #ffc800;
+    background: none repeat scroll 0 0 #4BBCD0;
 }
 
 #respuestasub li p {
+	color:#ffffff;
+    font-weight: 800;
+	font-size: 25px;
+	z-index: 98;
+}
+
+#respuestacon li p {
 	color:#ffffff;
     font-weight: 800;
 	font-size: 25px;
@@ -846,7 +852,7 @@ div.container4 p {
 .filter li a:hover {
 	width: 208px;
     height: 75px;
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 	color: #fff !important;
 	border-color: #fff !important;
 }
@@ -974,7 +980,7 @@ div.container4 p {
 }
 
 #our-breeds .btn {
-	border: 1px solid #ffc800;
+	border: 1px solid #4BBCD0;
 }
 
 /* breed-info */
@@ -994,8 +1000,8 @@ div.container4 p {
 	right: 0;
 	content: "";
 	border:10px solid transparent;
-	border-right:10px solid #ffc800;
-	border-top:10px solid #ffc800;
+	border-right:10px solid #4BBCD0;
+	border-top:10px solid #4BBCD0;
 }
 
 .breed, .breed-photo, .breed-info { min-height:400px;}
@@ -1028,7 +1034,7 @@ ul.breed-desc li span {
 
 ul.breed-desc li span strong {
 	font-size: 20px;
-	color: #ffc800;
+	color: #4BBCD0;
 	text-align: right;
 }
 
@@ -1150,12 +1156,12 @@ ul.breed-desc li span strong {
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-	border-top-color: #ffc800;
+	border-top-color: #4BBCD0;
 	border: none;
 }
 
 .panel-heading {
-	border-color: #ffc800;
+	border-color: #4BBCD0;
 	border: none;
 }
 
@@ -1174,7 +1180,7 @@ ul.breed-desc li span strong {
 
 .panel-title span {
 	padding-right: 10px;
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 20px;
 	margin-top:-2px;
 }
@@ -1202,7 +1208,7 @@ ul.points li:before {
 	left: 0;
 	width: 15px;
 	height: 15px;
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 ul.points2 li:before {
@@ -1214,11 +1220,11 @@ ul.points2 li:before {
 	left: 0;
 	width: 15px;
 	height: 15px;
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 .cta {
-    border: 1px solid #ffc800;
+    border: 1px solid #4BBCD0;
     padding: 50px 1px;
     display: table-cell;
 }
@@ -1237,7 +1243,7 @@ ul.points2 li:before {
 
 .cta-right a {
     font-size: 36px;
-    color: #ffc800;
+    color: #4BBCD0;
     font-weight: 800;
     margin-top: 20px;
     display: block;
@@ -1266,7 +1272,7 @@ ul.points2 li:before {
  .achievement h1 i {
  	font-size: 65px;
  	margin-right: 20px;
- 	color: #ffc800;
+ 	color: #4BBCD0;
  }
 
  .achievement span {
@@ -1293,12 +1299,12 @@ ul.points2 li:before {
 }
 
 .service i {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 50px;
 }
 
 .service i h2 span {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 50px;
 }
 
@@ -1317,7 +1323,7 @@ ul.points2 li:before {
 }
 
 .service a {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 16px;
 	text-transform: capitalize;
 }
@@ -1391,7 +1397,7 @@ ul.points2 li:before {
 
 .puppie-link {
     float: right;
-    background-color: #ffc800;
+    background-color: #4BBCD0;
     color: #fff;
     width: 64px;
     overflow: hidden;
@@ -1422,7 +1428,7 @@ ul.points2 li:before {
 #contact-form {}
 
 .thank-you {
-	color: #ffc800;
+	color: #4BBCD0;
 	font-family: 'Pacifico';
 	font-weight: 400;
 	font-size:40px;
@@ -1476,7 +1482,7 @@ ul.points2 li:before {
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
-	border-bottom-color: #ffc800;
+	border-bottom-color: #4BBCD0;
 }
 
 /* normal placeholder style */
@@ -1541,25 +1547,25 @@ ul.points2 li:before {
 button {
 	background: none;
 	border: none;
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 .contact-form input[type="submit"] {
 	max-width: 302px;
 	text-align: center;
 	margin: 0 auto;
-	border: 1px solid #ffc800;
+	border: 1px solid #4BBCD0;
 	background: none;
 	font-weight: 800;
 	font-size: 24px;
 	text-transform: uppercase;
-	color: #ffc800;
+	color: #4BBCD0;
 	font-style: normal;
 	margin-top: 30px;
 }
 
 .contact-form input[type="submit"]:hover {
-	background: #ffc800;
+	background: #4BBCD0;
 	color: #fff;
 
 }
@@ -1615,7 +1621,7 @@ ul.social li a span {
 	-o-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	text-align: center;
-	border: 4px solid #ffc800;
+	border: 4px solid #4BBCD0;
 	background:#181818;
 	text-indent: 0px;
 	border-radius: 5px;
@@ -1652,7 +1658,7 @@ ul.social li a span:after {
 ul.social li a span:after {
 	bottom: -14px;
 	margin-left: -10px;
-	border-top: 10px solid #ffc800;
+	border-top: 10px solid #4BBCD0;
 }
 
 ul.social li a:hover span {
@@ -1662,8 +1668,8 @@ ul.social li a:hover span {
 
 
 ul.social li a i {
-	border: 4px solid #ffc800;
-	color: #ffc800;
+	border: 4px solid #4BBCD0;
+	color: #4BBCD0;
 	width: 55px;
 	height: 55px;
 	line-height: 50px;
@@ -1673,8 +1679,8 @@ ul.social li a i {
 }
 
 ul.social li a i.fa-facebook {
-	border: 4px solid #ffc800;
-	color: #ffc800;
+	border: 4px solid #4BBCD0;
+	color: #4BBCD0;
 	width: 55px;
 	height: 55px;
 	line-height: 50px;
@@ -1686,8 +1692,8 @@ ul.social li a i.fa-facebook {
 }
 
 ul.social li a i.fa-twitter {
-	border: 4px solid #ffc800;
-	color: #ffc800;
+	border: 4px solid #4BBCD0;
+	color: #4BBCD0;
 	width: 55px;
 	height: 55px;
 	line-height: 50px;
@@ -1699,8 +1705,8 @@ ul.social li a i.fa-twitter {
 }
 
 ul.social li a i.fa-instagram {
-	border: 4px solid #ffc800;
-	color: #ffc800;
+	border: 4px solid #4BBCD0;
+	color: #4BBCD0;
 	width: 55px;
 	height: 55px;
 	line-height: 50px;
@@ -1712,7 +1718,7 @@ ul.social li a i.fa-instagram {
 
 /* copyrighit */
 .copyright {
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 	padding: 55px 0 45px;
 }
 
@@ -1781,7 +1787,7 @@ h1.entry-title a {
 }
 
 .entry-meta span a i {
-	color: #ffc800;
+	color: #4BBCD0;
 	margin-right: 10px;
 }
 
@@ -1830,7 +1836,7 @@ blockquote {
 }
 
 .pagination li.active a, .pagination li.active a:hover, .pagination li a:hover {
-	background: #ffc800;
+	background: #4BBCD0;
 	color: #fff !important;
 }
 
@@ -1840,7 +1846,7 @@ blockquote {
 
 .pagination-wrapper a.btn:hover {
 	max-width: 220px;
-	border: 1px solid #ffc800;
+	border: 1px solid #4BBCD0;
 }
 
 #blog-carousel .carousel-indicators {
@@ -1852,11 +1858,11 @@ blockquote {
 }
 
 .carousel-indicators li {
-	border: 1px solid #ffc800;
+	border: 1px solid #4BBCD0;
 }
 
 .carousel-indicators li.active {
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 }
 
 #ad-carousel .carousel-indicators {
@@ -1873,7 +1879,7 @@ blockquote {
 h3.widget-title {
     margin: 0 0 20px 0;
     color: #fffefe;
-    background-color: #ffc800;
+    background-color: #4BBCD0;
     padding:10px 15px;
     font-weight: 800;
 }
@@ -1959,7 +1965,7 @@ h3.widget-title i {
 	top:0;
 	left:0;
 	content:"";
-	background:#ffc800;
+	background:#4BBCD0;
 	opacity:0;
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
@@ -1987,7 +1993,7 @@ h3.widget-title i {
     font-weight: 800;
 }
 .single-post .post-content p.time {
-    color: #ffc800;
+    color: #4BBCD0;
     font-weight: 800;
     margin: 0;
 }
@@ -2004,7 +2010,7 @@ h3.widget-title i {
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 	text-align: center;
 	color: #fff !important;
 	display: inline-block;
@@ -2051,7 +2057,7 @@ h3.widget-title i {
 }
 
 .social-share ul li a:hover {
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 }
 
 .social-share ul li a:focus {
@@ -2097,7 +2103,7 @@ h3.widget-title i {
 }
 
 .author-social a {
-	color: #ffc800;
+	color: #4BBCD0;
 	display: inline-block;
 	font-size: 16px;
 	height: 35px;
@@ -2109,7 +2115,7 @@ h3.widget-title i {
 
 .author-social a:hover {
 	color:#fff;
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 }
 
 /* comments-area */
@@ -2272,7 +2278,7 @@ input.search-submit {
 .tagcloud {}
 
 .widget_tag_cloud a, .tagcloud a {
-	border: 1px dashed #ffc800;
+	border: 1px dashed #4BBCD0;
 	padding: 5px 10px;
 	display: inline-block;
 	margin: 0 5px 10px 0;
@@ -2283,8 +2289,8 @@ input.search-submit {
 }
 
 .tagcloud a:hover {
-	background-color: #ffc800;
-	border: 1px solid #ffc800;
+	background-color: #4BBCD0;
+	border: 1px solid #4BBCD0;
 	color: #fff;
 }
 
@@ -2296,7 +2302,7 @@ input.search-submit {
 	right: 20px;
 	height: 38px;
 	width: 38px;
-	background: url("top.png") no-repeat #ffc800;
+	background: url("top.png") no-repeat #4BBCD0;
 	text-indent: -99999px;
 	border-radius: 50%;
 }
@@ -2342,7 +2348,7 @@ input.search-submit {
 
 #not-found h1 {
 	font-family: 'Pacifico';
-	color: #ffc800;
+	color: #4BBCD0;
 	font-size: 250px;
 	line-height: 250px;
 }
@@ -2377,7 +2383,7 @@ input.search-submit {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #ffc800;
+	background-color: #4BBCD0;
 	z-index: 99999;
 	
 }
@@ -2441,7 +2447,7 @@ input.search-submit {
 
 .coming-soon h1 {
     margin-top: 20px;
-	color: #ffc800;
+	color: #4BBCD0;
 	-webkit-text-shadow: 0px 2px 3px rgba(0,0,0,0.3);
 	-moz-text-shadow: 0px 2px 3px rgba(0,0,0,0.3);
 	-ms-text-shadow: 0px 2px 3px rgba(0,0,0,0.3);
@@ -2486,7 +2492,7 @@ input.search-submit {
 	position: relative;
 	padding-top: 5px;
 	margin-top: 5px;
-	color: #ffc800;
+	color: #4BBCD0;
 }
 
 .countdown-period:before {
@@ -2528,8 +2534,8 @@ form.subscription button {
 }
 
 .coming-soon ul.social li a i {
-	border: 1px solid #ffc800;
-	color: #ffc800;
+	border: 1px solid #4BBCD0;
+	color: #4BBCD0;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -2540,7 +2546,7 @@ form.subscription button {
 
 .coming-soon ul.social li a span {
 	border: none;
-	background: #ffc800;
+	background: #4BBCD0;
 	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	-ms-box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -2664,7 +2670,7 @@ ul.breed-desc li span strong {font-size:17px;}
 	#slider h2 { font-size:40px;}
 	.owl-prev, .owl-next {width:40px; height:40px; background-size:10px auto;}
 	.slider_item { padding-bottom:40px;}
-	.navbar-header { background:#ffc800;}
+	.navbar-header { background:#4BBCD0;}
 	.navbar-collapse, .navbar-nav { margin:0 !important; border:none;}
 	.nav > li { border-bottom:solid 1px #e8e8e8;}
 	.nav > li:before {display:none;}

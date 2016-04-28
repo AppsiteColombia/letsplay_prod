@@ -1,2 +1,16 @@
-$("#respuestasub").append("<li><p id='rcorners1'> Felicidades ahora haces parte de nuestro Newslatter! </p> </li>");
+valor = document.getElementById("name").value;
+
+if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+	$("#respuestasub").append("<li><p id='rcorners1'> ¡Felicidades ahora haces parte de nuestro Newslatter!. </p> </li>");
+}else{
+	$("#respuestacon").append("<li><p id='rcorners1'> ¡Hemos recibido tu mensaje!, un ejecutivo te contactará. </p> </li>");		
+}
+
+valor = null;
+
+$('#name').val('');
+$('#subject').val('');
+$('#mail').val('');
+$('#email').val('');
+$('#message').val('');
 

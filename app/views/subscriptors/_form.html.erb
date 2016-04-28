@@ -1,6 +1,5 @@
 
-<%= form_for @subscriptor, remote: true, html: {:id => "subscriptorintput",  :class => "newsletter clearfix wow fadeInUp", :"data-type" => "script"  }  do |f| %> 
-  <%= f.email_field :mail, class: "form-control", required: "required", placeholder: "Ingresa tu Correo"%>
+<%= form_for @subscriptor, remote: true, html: {:id => "subscriptorintput",  :class => "newsletter clearfix wow fadeInUp", :"data-type" => "script"}  do |f| %> 
+  <%= f.email_field :mail, class: "form-control", required: "required", placeholder: "Ingresa tu Correo", id: "mail"%>
   <%= f.submit class: "form-control", value: "Go" %>
 <% end %>
-

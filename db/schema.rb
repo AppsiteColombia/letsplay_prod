@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160317202749) do
+ActiveRecord::Schema.define(version: 20160427214633) do
+
+  create_table "contacts", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "subject"
+    t.string   "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer  "priority",   default: 0, null: false
@@ -34,6 +43,8 @@ ActiveRecord::Schema.define(version: 20160317202749) do
     t.string   "mail"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "subject"
+    t.text     "message"
   end
 
 end

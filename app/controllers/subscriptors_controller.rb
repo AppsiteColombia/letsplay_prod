@@ -14,13 +14,13 @@ class SubscriptorsController < ApplicationController
   end
 
   # GET /subscriptors/new
-  #def new
-   # @subscriptor = Subscriptor.new
-  #end
+  def new
+    @subscriptor = Subscriptor.new
+  end
 
   # GET /subscriptors/1/edit
-  #def edit
-  #end
+  def edit
+  end
 
   # POST /subscriptors
   # POST /subscriptors.json
@@ -30,6 +30,8 @@ class SubscriptorsController < ApplicationController
 
     respond_to do |format|
       if @subscriptor.save
+
+        
         #Welcome.notify(@subscriptor).deliver_now
         #format.html { redirect_to @subscriptor, notice: 'Subscriptor was successfully created.' }
         #format.json { render :show, status: :created, location: @subscriptor }
@@ -74,6 +76,6 @@ class SubscriptorsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def subscriptor_params
-      params.require(:subscriptor).permit(:name, :mail)
+      params.require(:subscriptor).permit(:name, :subject, :mail, :message)
     end
 end
