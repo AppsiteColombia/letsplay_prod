@@ -1332,7 +1332,7 @@ ul.points2 li:before {
  	Puppies Styles
  ========================================================================== */
 #puppies {
-	background: url("bg/puppies.jpg") no-repeat bottom center;
+	background: url("bg/puppies_jg.jpg") no-repeat bottom center;
 	background-attachment:fixed;
 	background-size:cover;
 }
@@ -1687,7 +1687,7 @@ ul.social li a i.fa-facebook {
 	text-align: center;
 	font-size: 30px;
 	border-radius: 50%;
-	content:url("ico/face-original55.png");
+	background: #000000;
 
 }
 
@@ -1700,7 +1700,7 @@ ul.social li a i.fa-twitter {
 	text-align: center;
 	font-size: 30px;
 	border-radius: 50%;
-	content:url("ico/twitter-original55_1.png");
+	content:url("search2.png");
 
 }
 

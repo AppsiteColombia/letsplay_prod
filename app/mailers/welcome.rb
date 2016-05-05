@@ -8,6 +8,17 @@ class Welcome < ApplicationMailer
   def notify(subscriptor)
 
   	@subscriptor = subscriptor
-    mail to: subscriptor.mail, subject: "Bienvenido a Let's PLay"
+    mail to: subscriptor.mail, Bcc: "gerencia@letsplay.company", subject: "Bienvenido a Let's PLay"
   end
+
+ # def contacto(subscriptor)
+  #	@subscriptor = subscriptor
+   # mail to: subscriptor.mail, subject: "Bienvenido a Let's PLay"
+  #end 
+
+   def contacto (subscriptor)
+  	@subscriptor = subscriptor
+    mail to: subscriptor.mail, Bcc: "gerencia@letsplay.company", subject: "Hemos registrado tu solicitud."
+  end
+
 end

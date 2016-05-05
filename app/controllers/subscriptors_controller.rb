@@ -32,7 +32,11 @@ class SubscriptorsController < ApplicationController
       if @subscriptor.save
 
         
-        #Welcome.notify(@subscriptor).deliver_now
+        if  subscriptor_params[:name].blank?
+          Welcome.notify(@subscriptor).deliver_now
+        else
+          Welcome.contacto(@subscriptor).deliver_now
+        end 
         #format.html { redirect_to @subscriptor, notice: 'Subscriptor was successfully created.' }
         #format.json { render :show, status: :created, location: @subscriptor }
         format.js
