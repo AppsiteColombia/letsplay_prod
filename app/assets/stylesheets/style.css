@@ -959,8 +959,10 @@ div.container4 p {
 }
 
 .hover i.fa-search {
-    left: -50%;
-    margin-left: -60px;
+    /*left: -50%;
+    margin-left: -60px;*/
+    left: -25%;
+    margin-left: -30px;
     background-image: url("search2.png");
 
 }

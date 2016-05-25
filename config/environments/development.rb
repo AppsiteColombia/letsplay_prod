@@ -56,7 +56,7 @@ Rails.application.configure do
  port:                  465,
  user_name:            'contacto@letsplay.company',
  domain:               'zoho.com',
- password:             'Preferidos1.',
+ password:             'LosPreferidos',
  authentication:       :plain,
  ssl:                    true,
  tls:                    true,
