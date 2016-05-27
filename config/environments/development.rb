@@ -48,6 +48,7 @@ Rails.application.configure do
  # password:             'DevJhonnyG1...',
  # authentication:       'plain',
  # enable_starttls_auto: true  }
+ 
 
  config.action_mailer.raise_delivery_errors = true
  config.action_mailer.delivery_method = :smtp
