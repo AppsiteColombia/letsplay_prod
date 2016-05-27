@@ -46,4 +46,6 @@ gem 'delayed_job'
 gem 'delayed_job_active_record'
 gem 'activejob'
 gem 'jquery-turbolinks'
+gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+
 
