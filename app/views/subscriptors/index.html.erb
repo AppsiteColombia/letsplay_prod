@@ -54,11 +54,13 @@
             </div>
         </div>
 
-        <div class="slider_item" style="background:url(/assets/slider/bg7.png) no-repeat; background-size:cover;">
+        <div class="slider_item" style="background:url(<%= image_tag("slider/bg7.png")%>) no-repeat; background-size:cover;">
+
             <div class="row" >
               <h1>LetsPlay, diseñados para los más grandes ...</h1>
               <div class="col-sm-6 slider-image">
-                <img src="/assets/slider/5_barra.png" alt="kutta :)" class="img-responsive">
+                <%= image_tag("slider/5_barra.png", :class =>"img-responsive", :alt =>"Letsplay :)") %> 
+                
               </div>
               <div class="logo">
                 <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
