@@ -1,6 +1,6 @@
 class SubscriptorsController < ApplicationController
   before_action :set_subscriptor, only: [:show, :edit, :update, :destroy]
-
+ 
   # GET /subscriptors
   # GET /subscriptors.json
   def index
@@ -30,20 +30,17 @@ class SubscriptorsController < ApplicationController
 
     respond_to do |format|
       if @subscriptor.save
-
-        
+         
         if  subscriptor_params[:name].blank?
           Welcome.notify(@subscriptor).deliver_now
         else
           Welcome.contacto(@subscriptor).deliver_now
         end 
-        #format.html { redirect_to @subscriptor, notice: 'Subscriptor was successfully created.' }
-        #format.json { render :show, status: :created, location: @subscriptor }
-        format.js
+        format.js 
       else
         #format.html { render :new }
         #format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
-        format.js
+        format.js 
       end
     end
   end

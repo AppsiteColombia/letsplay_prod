@@ -10,29 +10,30 @@
       <div class="owl-carousel">
         <!-- slider-item -->
 
-        <div class="slider_item" style="background:url(/assets/slider/bg2.png) no-repeat; background-size:cover;">
+        <div class="slider_item_bg3">
+
             <div class="row" >
               <h1>Los preferidos ...</h1>
               
               <div class="col-sm-6 slider-image">
-                <img src="/assets/slider/1_pelota.png"  class="img-responsive">
+                <%= image_tag("slider/1_pelota.png", :class =>"img-responsive", :alt =>"Letsplay :)") %> 
               </div>
               <div class="logo">
-                <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
+                <h1><%= image_tag("logo_lets_2.png", :class =>"img-responsive", :alt =>"Letsplay :)") %></h1>
               </div>
               <h1>... de tus preferidos</h1>
               <h4>LetsPlay - Jueguetes para mascotas</h4>
             </div>
         </div><!-- slider-item -->
                 
-        <div class="slider_item" style="background:url(/assets/slider/bg3.png) no-repeat; background-size:cover;">
+        <div class="slider_item_bg3">
             <div class="row" >
               <h1>Seran los favoritos de tu mejor amigo.</h1>
               <div class="col-sm-6 slider-image">
-                <img src="/assets/slider/2_perrohueso.png" alt="kutta :)" class="img-responsive">
+                <%= image_tag("slider/2_perrohueso.png", :class =>"img-responsive", :alt =>"Letsplay :)") %> 
               </div>
               <div class="logo">
-                <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
+                <h1><%= image_tag("logo_lets_2.png", :class =>"img-responsive", :alt =>"Letsplay :)") %></h1>
               </div>
               <h4>Jueguetes con variedad de figuras.</h4>
               <h4>Texturas para divertir y revitalizar.</h4>
@@ -40,30 +41,29 @@
             </div>
         </div><!-- slider-item -->
 
-        <div class="slider_item" style="background:url(/assets/slider/bg4.png) no-repeat; background-size:cover;">
+        <div class="slider_item_bg4">
             <div class="row" >
               <h1>Exige a tu mascota ...</h1>
               <div class="col-sm-6 slider-image">
-                <img src="/assets/slider/3_frisby_1.png" alt="kutta :)" class="img-responsive">
+                <%= image_tag("slider/3_frisby_1.png", :class =>"img-responsive", :alt =>"Letsplay :)") %> 
               </div>
               <div class="logo">
-                <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
+                <h1><%= image_tag("logo_lets_2.png", :class =>"img-responsive", :alt =>"Letsplay :)") %></h1>
               </div>
               <h1>... y activa sus sentidos</h1>
               <h4>Los mejores Juguetes para las Mejores mascotas.</h4>
             </div>
         </div>
 
-        <div class="slider_item" style="background:url(<%= image_tag("slider/bg7.png")%>) no-repeat; background-size:cover;">
 
+       <div class="slider_item_bg7">
             <div class="row" >
               <h1>LetsPlay, diseñados para los más grandes ...</h1>
               <div class="col-sm-6 slider-image">
-                <%= image_tag("slider/5_barra.png", :class =>"img-responsive", :alt =>"Letsplay :)") %> 
-                
+                <%= image_tag("slider/5_barra.png", :class =>"img-responsive", :alt =>"Letsplay :)") %>                 
               </div>
               <div class="logo">
-                <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
+                <h1><%= image_tag("logo_lets_2.png", :class =>"img-responsive", :alt =>"Letsplay :)") %></h1>
               </div>
               <h1>... y los más pequeños.</h1>
               <h4>Diversion para todos.</h4>
@@ -90,17 +90,16 @@
         <div class="slider_item" style="background:url(/assets/slider/bg61.png) no-repeat; background-size:cover;">
  -->
         
- <div class="slider_item" style="background-image: url(<%= asset_path 'slider/bg61.png' %>)no-repeat; background-size:cover;">                
-          <div class="row"  >   
-              
+        <div class="slider_item_bg5">                
+          <div class="row"  >               
             <h1>LetsPlay, para Gatos ...</h1>
              
               <div class="logo">
-                <h1><img src="/assets/logo_lets_2.png" alt="Logo"></h1>
+                <h1><%= image_tag("logo_lets_2.png", :class =>"img-responsive", :alt =>"Letsplay :)") %></h1>
               </div>
 
               <div class="col-sm-6 slider-image">
-                <img src="/assets/slider/6_gatos1.png" alt="kutta :)" class="img-responsive">
+                <h1><%= image_tag("slider/6_gatos1.png", :class =>"img-responsive", :alt =>"Letsplay :)") %>
               </div>
             </div>
         </div>  
@@ -137,18 +136,18 @@
     </header><!-- /header -->
 
     <!-- welcome -->
-    <section id="welcome" class="clearfix text-center" style="background:url(/assets/image/categorias.png) no-repeat; background-size:cover;" > 
+    <section id="welcome" class="clearfix text-center"> 
       <div class="container">
         <!-- section-title -->
         <div class="section-title">
           <h1 class="title wow zoomIn" data-wow-duration="500ms" data-wow-delay="500ms">Bienvenidos a</h1>
-          <h1 class="title wow zoomIn" data-wow-duration="700ms" data-wow-delay="700ms"><div style="text-align:center;"><img class= "bienvenidos" src="/assets/image/logo-rayado.png" ></div></h1>
+          <h1 class="title wow zoomIn" data-wow-duration="700ms" data-wow-delay="700ms"><div style="text-align:center;"><%= image_tag("image/logo-rayado.png", alt:"Letsplay :)", class:"bienvenidos")%></div></h1>
           <h2 class="title wow zoomIn" data-wow-duration="900ms" data-wow-delay="900ms">Los preferidos de tus preferidos.</h2>
           <h3 class="title wow zoomIn" data-wow-duration="900ms" data-wow-delay="900ms">JUGETES PARA TODOS LOS TAMAÑOS Y TODAS LAS RAZAS. </h3>
         </div><!-- section-title -->
         <div class="row">
 
-          <!-- product -->
+          <!-- - -->
           <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
             <div class="product">
               <!-- product-image -->
@@ -1638,8 +1637,8 @@
                       </h4>
                     </a>
                   </div>
-                  
-                  <div id="section1" class="panel-collapse collapse in">
+                  <!--div id="section1" class="panel-collapse collapse in" --> 
+                  <div id="section1">
                     <div class="panel-body">
                       <p>Día tras día hemos trabajado por ser los más innovadores en diseños, mantener una gran gama de colores llamativos, crear juguetes de alta resistencia y durabilidad, cuidar cada detalle porque nuestras mascotas lo merecen.
 
@@ -1659,12 +1658,14 @@
                     </a>
                   </div>
                   
-                  <div id="section2" class="panel-collapse collapse">
-                    <div class="panel-body">
+
+                  <!-- div id="section2" class="panel-collapse collapse" -->
+                  <div id="section2" >
+                    <!--div class="panel-body">
                       Día tras día hemos trabajado por ser los más innovadores en diseños, mantener una gran gama de colores llamativos, crear juguetes de alta resistencia y durabilidad, cuidar cada detalle porque nuestras mascotas lo merecen.
 
                       Por esto Let's  Play seguirá enfocada en crear juguetes que serán "LOS PREFERIDOS DE TUS PREFERIDOS".
-                    </div>
+                    </div -->
                   </div>
                 </div><!-- panel-about -->
                 
@@ -1679,14 +1680,15 @@
                     </a>
                   </div>
                   
-                  <div id="section3" class="panel-collapse collapse">
-                    <div class="panel-body">
+                  <!-- div id="section3" class="panel-collapse collapse" -->
+                   <div id="section3">
+                    <!-- div class="panel-body">
                       Día tras día hemos trabajado por ser los más innovadores en diseños, mantener una gran gama de colores llamativos, crear juguetes de alta resistencia y durabilidad, cuidar cada detalle porque nuestras mascotas lo merecen.
 
                       Por esto Let's  Play seguirá enfocada en crear juguetes que serán "LOS PREFERIDOS DE TUS PREFERIDOS".
-                    </div>
+                    </div -->
                   </div>
-                </div><!-- panel-about -->
+                </div --><!-- panel-about -->
 
                 <!-- panel-about -->
                 <div class="panel panel-default panel-about">
@@ -1699,12 +1701,13 @@
                     </a>
                   </div>
                   
-                  <div id="section4" class="panel-collapse collapse">
-                    <div class="panel-body">
+                  <!-- div id="section4" class="panel-collapse collapse" -->
+                  <div id="section4">
+                    <!-- div class="panel-body">
                       Día tras día hemos trabajado por ser los más innovadores en diseños, mantener una gran gama de colores llamativos, crear juguetes de alta resistencia y durabilidad, cuidar cada detalle porque nuestras mascotas lo merecen.
 
                       Por esto Let's  Play seguirá enfocada en crear juguetes que serán "LOS PREFERIDOS DE TUS PREFERIDOS".
-                    </div>
+                    </div -->
                   </div>
                 </div><!-- panel-about -->
 
@@ -1719,12 +1722,13 @@
                     </a>
                   </div>
                   
-                  <div id="section5" class="panel-collapse collapse">
-                    <div class="panel-body">
+                  <!-- div id="section5" class="panel-collapse collapse"-->
+                  <div id="section5">
+                    <!-- div class="panel-body">
                       Día tras día hemos trabajado por ser los más innovadores en diseños, mantener una gran gama de colores llamativos, crear juguetes de alta resistencia y durabilidad, cuidar cada detalle porque nuestras mascotas lo merecen.
 
                       Por esto Let's  Play seguirá enfocada en crear juguetes que serán "LOS PREFERIDOS DE TUS PREFERIDOS".
-                    </div>
+                    </div -->
                   </div>
                 </div><!-- panel-about -->
                 
@@ -1748,9 +1752,11 @@
               
                             <!-- cta-left -->
               <div class="cta-left col-md-6">
-                <p>Let´s play Colombia estamos calle 1 plaza de las americas, Bogota. </p> 
-                <p>Let´s play Perú estamos en manuel ganoza. Surco, Lima </p> 
-                <p> Ó escribirnos a nuestro correo electronico: <span>gerencia@letsplay.company</span></p>
+                <p>Let´s play Colombia estamos en: Direccion: Calle 41 sur #31-15, Bogota. </p> 
+                <p> Ó escribirnos a nuestro correo electronico: <span><h2>gerencia@letsplay.company</h2></span></p>
+                <br>
+                <p><span>Colombia<span></p><div class="cta-right"><a href="tel:573155670013">+57 <br>315 567 0013</a>
+                <p>Fijo</p><a href="tel:57013910948">+57<br> 01 3910948</a></div>
               </div><!-- cta-left -->
 
               <!--  cta-right -->
@@ -1765,10 +1771,10 @@
 
               <!-- cta-right -->
               <div class="cta-right col-md-6">
-                <p>Colombia</p>
-                <a href="tel:04256987896">+57 813 5254</a>
-                <p>Perú</p>
-                <a href="tel:04256987896">+51 333 3333 </a>
+                <!--p>Colombia</p>
+                <p>Movíl</p><a href="tel:573155670013">+57 315 567 0013</a>
+                <p>Fijo</p><a href="tel:57013910948">+57 01 3910948</a -->
+                
               </div><!-- cta-right -->
                             
             </div>

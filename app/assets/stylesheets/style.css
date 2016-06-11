@@ -451,6 +451,23 @@ h2.sub-title span {
 	transform: scale(1);
 }
 
+.slider_item_bg3 {
+    background: url("slider/bg3.png") no-repeat; background-size:cover;
+}
+
+.slider_item_bg4 {
+    background: url("slider/bg4.png") no-repeat; background-size:cover;
+}
+
+.slider_item_bg5 {
+    background: url("slider/bg61.png") no-repeat; background-size:cover;
+}
+
+.slider_item_bg7 {
+    background: url("slider/bg7.png") no-repeat; background-size:cover;
+}
+
+
 
 .slider_item h1, .slider_item h2, .slider_item h3 {
 	white-space:nowrap;
@@ -700,8 +717,9 @@ header {
  	Welcome Styles
  ========================================================================== */
 #welcome {
-	background: url("bg/welcome.jpg") no-repeat;
+	background: url("image/categorias.png") no-repeat;
 	background-attachment:fixed;
+	background-size:cover;
 }
 
 .product-image {
@@ -729,7 +747,7 @@ header {
  	Newsletter Styles
  ========================================================================== */
 #newsletter {
-    background:url("bg/newsletter.png") no-repeat;
+    background: url("bg/newsletter.png") no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 }

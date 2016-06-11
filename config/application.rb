@@ -26,7 +26,5 @@ module Letsplay
     config.active_job.queue_adapter = :delayed_job
     config.action_mailer.default_url_options = {host: 'localhost:3000'}
     config.mailer_sender = 'contacto@letsplay.company'
-
-
   end
 end
