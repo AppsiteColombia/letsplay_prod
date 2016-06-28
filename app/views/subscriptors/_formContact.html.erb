@@ -1,9 +1,10 @@
 <%= form_for @subscriptor, remote: true, html: {:id => "contactintput",  :class => "contact-form", :"data-type" => "script"}  do |f| %> 
-  <%= f.text_field :name, class: "form-group col-sm-6 form-control wow fadeInUp", required: "required", placeholder: "Tu Nombre", id: "name" %>
+  <%= f.text_field :name, class: "form-group col-sm-6 form-control wow fadeInUp", required: "required", placeholder: "Tu Nombre", id: "name"%>
   <%= f.email_field :mail, class: "form-group col-sm-6 form-control wow fadeInUp", required: "required", placeholder: "Tu Correo", id: "mail_contacto"%> 
   <%= f.text_field :subject, class: "form-group col-sm-6 form-control wow fadeInUp", required: "required", placeholder: "Tu Asunto", id: "subject_contacto"%>
   <%= f.text_area :message, class: "form-group col-sm-6 form-control wow fadeInUp", required: "required", placeholder: "Tu Mensaje", id: "message_contacto"%>
-  <%= f.submit class: "btn btn-angle wow zoomIn", value: "ENVIAR MENSAJE" %>
+  <%= f.submit class: "btn btn-angle wow zoomIn", value: "ENVIAR MENSAJE", onclick:"return validation_for_contact()"%>
 <% end %>
+
 
 

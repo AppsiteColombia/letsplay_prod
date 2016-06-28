@@ -1,4 +1,5 @@
 class SubscriptorsController < ApplicationController
+  skip_before_filter :verify_authenticity_token
   before_action :set_subscriptor, only: [:show, :edit, :update, :destroy]
  
   # GET /subscriptors
@@ -24,26 +25,29 @@ class SubscriptorsController < ApplicationController
 
   # POST /subscriptors
   # POST /subscriptors.json
-  def create
+  # ya no se utiliza porque estoy utilizando la api/v1/subscriptors_controller.rb
+  # def create
     
-    @subscriptor = Subscriptor.new(subscriptor_params)
+  #   @subscriptor = Subscriptor.new(subscriptor_params)
 
-    respond_to do |format|
-      if @subscriptor.save
+  #   respond_to do |format|
+  #     if @subscriptor.save
          
-        if  subscriptor_params[:name].blank?
-          Welcome.notify(@subscriptor).deliver_now
-        else
-          Welcome.contacto(@subscriptor).deliver_now
-        end 
-        format.js 
-      else
-        #format.html { render :new }
-        #format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
-        format.js 
-      end
-    end
-  end
+  #       if  subscriptor_params[:name].blank?
+  #         #Welcome.notify(@subscriptor).deliver_now
+  #       else
+  #         #Welcome.contacto(@subscriptor).deliver_now
+  #       end 
+  #       format.js 
+  #       format.html { render :index }
+  #       format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
+  #     else
+  #       format.html { render :new }
+  #       format.json { render json: @subscriptor.errors, status: :unprocessable_entity }
+  #       format.js 
+  #     end
+  #   end
+  # end
 
   # PATCH/PUT /subscriptors/1
   # PATCH/PUT /subscriptors/1.json

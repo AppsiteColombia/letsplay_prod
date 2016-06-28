@@ -1,18 +1,37 @@
-valor = document.getElementById("name").value;
+/*
 
-if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
-	$("#respuestasub").append("<li><p id='rcorners1'> ¡Felicidades ahora haces parte de nuestro Newslatter!. </p> </li>");
-}else{
-	$("#respuestacon").append("<li><p id='rcorners1'> ¡Hemos recibido tu mensaje!, un ejecutivo te contactará. </p> </li>");		
+function validation_for_newslatter(){
+	alert("Entro validation_for_newslatter dentro del create");
+	return false;
 }
 
-valor = null;
 
-$('#name').val('');
-$('#name_contacto').val('');
-$('#subject').val('');
-$('#subject_contacto').val('');
-$('#mail').val('');
-$('#mail_contacto').val('');
-$('#message').val('');
-$('#message_contacto').val('');
+
+function validation_for_contact(){
+	alert("Entro validation_for_contact dentro del create");
+	return false;
+}
+
+	valor = document.getElementById("name").value;
+
+	if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+		$("#respuestasub").append("<li><p id='rcorners1'> ¡Felicidades ahora haces parte de nuestro Newslatter!. </p> </li>");
+//		return true;
+	}else{
+		$("#respuestacon").append("<li><p id='rcorners1'> ¡Hemos recibido tu mensaje!, un ejecutivo te contactará. </p> </li>");		
+//		console.log("false");
+//		return false;
+	}
+
+	valor = null;
+
+	$('#name').val('');
+	$('#name_contacto').val('');
+	$('#subject').val('');
+	$('#subject_contacto').val('');
+	$('#mail').val('');
+	$('#mail_contacto').val('');
+	$('#message').val('');
+	$('#message_contacto').val('');
+
+//}*/

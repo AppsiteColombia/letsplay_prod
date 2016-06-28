@@ -1,8 +1,7 @@
 
-<%= form_for @subscriptor, remote: true, html: {:id => "subscriptorintput",  :class => "newsletter clearfix wow fadeInUp", :"data-type" => "script"}  do |f| %> 
- 
+<%= form_for @subscriptor, remote: true, html: {:id => "subscriptorintput",  :class => "newsletter clearfix wow fadeInUp", :"data-type" => "script"}  do |f| %>  
   <%= f.hidden_field :subject,  id: "subject", value: "newsletter"%>
   <%= f.hidden_field :message, id: "message", value: "newsletter"%>
   <%= f.email_field :mail, class: "form-control", required: "required", placeholder: "Ingresa tu Correo", id: "mail"%>
-  <%= f.submit class: "form-control", value: "Go" %>
+  <%= f.submit class: "form-control", value: "Go",  onclick:"return validation_for_newslatter()" %>
 <% end %>
